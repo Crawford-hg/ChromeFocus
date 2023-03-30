@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Focus Test",
+    "version": "1.0",
+    "description": "A test Extension",
+    "icons": { 
+           
+          "128": "images/icon128.png" },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "alarms",
+        "nativeMessaging"
+
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
